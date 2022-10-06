@@ -19,22 +19,22 @@ Feel free to visit <i>examples</i> folder with toy example to get more familiar 
 This repository contains <i>examples</i> folder with variants of indexes that could be created. Bellow follows list of
 commands that were used for creating those indexes:
 
-* toy_basic.jsonl.index
+toy_basic.jsonl.index
 
 
     fileindexer examples/toy.jsonl examples/toy_basic.jsonl.index
 
-* toy_basic_with_headline.jsonl.index
+toy_basic_with_headline.jsonl.index
 
 
     fileindexer examples/toy.jsonl examples/toy_basic_with_headline.jsonl.index --headline --name_offset "file_line_offset"
 
-* toy_key_mapping.jsonl.index
+toy_key_mapping.jsonl.index
 
 
     fileindexer examples/toy.jsonl examples/toy_key_mapping.jsonl.index --key k
 
-* toy_key_mapping_with_headline.jsonl.index
+toy_key_mapping_with_headline.jsonl.index
 
 
     fileindexer examples/toy.jsonl examples/toy_key_mapping_with_headline.jsonl.index --key k --headline --name_key key --name_offset "file_line_offset"
